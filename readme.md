@@ -1,7 +1,7 @@
-npm init -y for initiallize a node project .package.json file create হবে
-npm i -D tailwindcss npm i mean initialize -D mean developer . install a tailwindcss dependency in developer mode। node_modules file create হবে
+`npm init -y` for initiallize a node project .package.json file create হবে
+`npm i -D tailwindcss` npm i mean initialize -D mean developer . install a tailwindcss dependency in developer mode। node_modules file create হবে
 install https://marketplace.visualstudio.com/... this pluging
-npx tailwindcss init এর মদ্যমে tailwind.config.js নামে file create হবে
+`npx tailwindcss init` এর মদ্যমে tailwind.config.js নামে file create হবে
 src এবং output নামে file create করব
 tailwind এর কাজ গলো আমরা src এর মদ্যে করব
 output folder এ compailer এর মদ্যমে vanilla css compile করে দিবে

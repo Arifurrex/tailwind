@@ -1,0 +1,17 @@
+npm init -y for initiallize a node project .package.json file create হবে
+npm i -D tailwindcss npm i mean initialize -D mean developer . install a tailwindcss dependency in developer mode। node_modules file create হবে
+install https://marketplace.visualstudio.com/... this pluging
+npx tailwindcss init এর মদ্যমে tailwind.config.js নামে file create হবে
+src এবং output নামে file create করব
+tailwind এর কাজ গলো আমরা src এর মদ্যে করব
+output folder এ compailer এর মদ্যমে vanilla css compile করে দিবে
+in src file i will create tailwind.css file . src/tailwind.css . any name হতে পারে
+tailwind.css file এর মদ্যে @tailwind base; @tailwind components; @tailwind utilities; লিখব
+@tailwind css er কোন property না । এখানে @ কে বলা হয় directive । যখন আমরা tailwind.css file টা tailwind এর compailer দিয়ে compile করব তখন এই derective গলো দেখে tailwind বুজতে পারবে এখানে tailwind এর base style ইনপুট করা আছে । এখানে tailwind এর components style ইনপুট আছে । এখানে tailwind এর utilities ফাইল ইনপুট করা আছে
+root folder এর মদ্যে .vscode ফোল্ডার নিব । তার মদ্যে setting.json ফাইল create করব .এটা হল vscode এর custome code লেখার ফাইল । যেহেত tailwind এর কোড গলো vscode চিনতে পারবে না তাই যাতে warning না দেখায় তাই {"css.validate" : flase;"tailwindCSS.emmetCompletaions" : true;} এই কোড লিকতে হবে
+package.json ফাইল এ "scripts": {
+"build":"tailwindcss -i ./src/tailwind.css -o ./output/tailwind.css -w"
+}, এখানে -i হল input -o output ফাইল -w হল watch
+index.html এ ./output/tailwind.css ফাইল টা html ইনক্লুড করে দিব
+almost done
+npm run build দিলে tailwind build হবে

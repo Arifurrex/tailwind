@@ -575,6 +575,10 @@ video {
   box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
 }
 
+.btn {
+  padding: 0.5rem;
+}
+
 .btn-purple {
   --tw-border-opacity: 1;
   border-color: rgb(233 213 255 / var(--tw-border-opacity));

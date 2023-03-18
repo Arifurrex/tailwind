@@ -216,3 +216,17 @@ in index.html file এ
 ```
 
 এখানে p-2 দিলে ও p-2 কাজ করবে না । কারণ tailwind specific utility কেই নেবে । সে px-4 py-1 কে piority দেবে
+
+### p-2 কে যদি apply করতে চাই তবে কি করতে হবে
+
+multiple apply korte hobe
+
+```sh
+
+.btn {
+  @apply p-2 px-4 py-1 border rounded-full text-sm
+    font-semibold hover:border-transparent focus:outline-none focus:ring-2;
+  @apply p-2;
+}
+
+```

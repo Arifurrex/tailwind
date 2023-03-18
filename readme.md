@@ -133,3 +133,11 @@ in src/tailwind.css file e
 }
 
 ```
+
+index.html file e
+
+```sh
+
+ <button class="btn-purple">click here</button>
+
+```

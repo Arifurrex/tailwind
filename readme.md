@@ -117,3 +117,19 @@ class অনুসারে background change হবে
       </button>
 
 ```
+
+in src/tailwind.css file e
+
+```sh
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* group utility */
+
+.btn-purple {
+  @apply px-4 py-1 border border-purple-200 rounded-full text-sm text-purple-600 font-semibold hover:text-white hover:bg-purple-600 hover:border-transparent focus:outline-none focus:ring-2 dark:text-purple-600 dark:focus:ring-offset-gray-800 dark:focus:border-transparent;
+}
+
+```

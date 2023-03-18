@@ -2,10 +2,13 @@
 
 ## tailwind setup
 
-1. ```sh
-      npm init
-   ```
-   or
+1.
+
+```sh
+     npm init
+```
+
+or
 
 ```sh
   npm init -y
@@ -13,8 +16,13 @@
 
 for initiallize a node project .package.json file create হবে
 
-2. `sh npm i -D tailwindcss`
-   npm i mean initialize -D mean developer . install a tailwindcss dependency in developer mode। node_modules file create হবে
+2.
+
+```sh
+npm i -D tailwindcss
+```
+
+npm i mean initialize -D mean developer . install a tailwindcss dependency in developer mode। node_modules file create হবে
 
 3. install https://marketplace.visualstudio.com/... this pluging
 

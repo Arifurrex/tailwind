@@ -173,3 +173,33 @@ index.html file e
 <button class="btn-green">submit</button>
 
 ```
+
+### এখানে problem হচ্ছে utility class গলো বারবার repeate হচ্ছে । তাহলে কিভাবে এই problem solve করব
+
+in src/tailwind.css file e
+
+common utility class গলো .btn এর মদ্যে রাখবো
+আর color releted .btn-purple বা .btn-purple utility class এ রাখব
+
+```sh
+.btn {
+  @apply px-4 py-1 border rounded-full text-sm
+    font-semibold hover:border-transparent focus:outline-none focus:ring-2;
+}
+.btn-purple {
+  @apply border-purple-200  text-purple-600  hover:text-white hover:bg-purple-600  dark:text-purple-600 dark:focus:ring-offset-gray-800 dark:focus:border-transparent;
+}
+.btn-green {
+  @apply border-green-200 text-green-600  hover:text-white hover:bg-green-600  dark:text-green-600 dark:focus:ring-offset-gray-800 dark:focus:border-transparent;
+}
+
+```
+
+in index.html file এ
+
+```sh
+
+<button class="btn btn-purple">click here<button>
+<button class="btn btn-green">submit</button>
+
+```

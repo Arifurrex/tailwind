@@ -24,7 +24,13 @@ for initiallize a node project .package.json file create হবে
 
 npm i mean initialize -D mean developer . install a tailwindcss dependency in developer mode। node_modules file create হবে
 
-3. install https://marketplace.visualstudio.com/... this pluging
+3. install
+
+```sh
+     https://marketplace.visualstudio.com/
+```
+
+this pluging
 
 4. `npx tailwindcss init`
    এর মদ্যমে tailwind.config.js নামে file create হবে

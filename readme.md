@@ -94,12 +94,14 @@ tailwind এ কার্ড আমদের বানাতে হয় utility c
 
 in tailwind.config.js file
 
-`sh
+```sh
   darkMode: 'media',
-  `
+```
+
 darkMode media মানে system device অনুসারে backgound change হবে
 
-`sh
+```sh
   darkMode: 'class',
-  `
+```
+
 class অনুসারে background change হবে

@@ -203,3 +203,16 @@ in index.html file এ
 <button class="btn btn-green">submit</button>
 
 ```
+
+### more about
+
+```sh
+
+.btn {
+  @apply p-2 px-4 py-1 border rounded-full text-sm
+    font-semibold hover:border-transparent focus:outline-none focus:ring-2;
+}
+
+```
+
+এখানে p-2 দিলে ও p-2 কাজ করবে না । কারণ tailwind specific utility কেই নেবে । সে px-4 py-1 কে piority দেবে

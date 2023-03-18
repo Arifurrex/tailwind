@@ -73,7 +73,10 @@ this pluging
 index.html এ ./output/tailwind.css ফাইল টা html ইনক্লুড করে দিব
 almost done
 
-9. npm run build দিলে tailwind build হবে
+9. ```sh
+         npm run build
+   ```
+   দিলে tailwind build হবে
 
 ## utility and component
 

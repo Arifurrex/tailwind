@@ -3,14 +3,13 @@
 ## tailwind setup
 
 1. ```sh
-   npm init
+      npm init
    ```
+   or
 
-````
-or
 ```sh
   npm init -y
-````
+```
 
 for initiallize a node project .package.json file create হবে
 

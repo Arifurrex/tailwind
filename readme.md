@@ -39,7 +39,7 @@ almost done
 
 npm run build দিলে tailwind build হবে
 
-\*\*\* utility and component
+###utility and component
 
 utility মানে individual গ্যাস বিল কিংবা ইলেকট্রিক বিল এগোল । utility মানে কাজের বস্তু
 
@@ -48,3 +48,5 @@ multiple utility মিলে component create হয়
 tailwind হল utility base framework আর boostrap হল component base css framework । example : boostrap এ আমাদের card বানান অবস্তই দেয়া হয় । boostap এ সদুমাত্র card বললেই boostrap আমদের কার্ড বানিয়ে দেয়
 
 tailwind এ কার্ড আমদের বানাতে হয় utility css দিয়ে
+
+###handling hover,focus and other states

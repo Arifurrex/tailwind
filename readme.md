@@ -2,6 +2,10 @@
 
 ## tailwind setup
 
+```sh
+  git clone https://github.com/learnwithsumit/tailwind-playlist.git
+```
+
 1. `sh npm init` or `sh npm init -y`
    for initiallize a node project .package.json file create হবে
 

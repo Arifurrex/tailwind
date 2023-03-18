@@ -105,3 +105,15 @@ darkMode media মানে system device অনুসারে backgound change
 ```
 
 class অনুসারে background change হবে
+
+## @apply
+
+```sh
+
+<button
+        class="px-4 py-1 border border-purple-200 rounded-full text-sm text-purple-600 font-semibold hover:text-white hover:bg-purple-600 hover:border-transparent focus:outline-none focus:ring-2 dark:text-purple-600 dark:focus:ring-offset-gray-800 dark:focus:border-transparent"
+      >
+        click here
+      </button>
+
+```

@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./output/tailwind.css" />
   </head>
   <body>
-    <div class="bg-red-600 w-screen">
+    <div class="bg-slate-50 w-screen">
       <div>
         <div
           class="p-6 max-w-sm mx-auto bg-slate-100 rounded-xl shadow-lg flex items-center space-x-4"
@@ -53,7 +53,7 @@
       </div>
 
       <!-- button hover -->
-      <div class="max-w-sm mx-auto mt-6">
+      <div class="max-w-sm mx-auto mt-6 space-x-2 space-y-2">
         <button
           class="mt-6 border border-purple-600 font-semibold text-sm rounded-full px-4 py-1 hover:bg-purple-600 hover:text-white"
         >
@@ -64,16 +64,23 @@
         >
           message
         </button>
+        <button class="bg-red-500 hover:bg-red-700 rounded-full px-4 py-1 text-white">
+        Hover me
+        </button>
+
+       <button class="bg-sky-500 hover:bg-sky-700 rounded-full py-1 px-4 text-white transform hover:scale-150 duration-100">
+       Save changes
+       </button>
+
       </div>
 
       <!-- form -->
-      <form action="" class="max-w-sm mx-auto mt-6 bg-slate-300">
-      <input
-        type="text"
-        class="border border-transparent focus:outline-none focus:ring-2"
-      />
-      <button class="bg-purple-600 ">sign up</button>
-    </div>
-    </form>
+      <form class="max-w-lg mx-auto mt-6">
+      <input class="border border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent0">
+      <button class="bg-purple-200 hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-50 ">
+        Sign up
+      </button>
+      </form>
+
   </body>
 </html>

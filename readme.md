@@ -89,3 +89,17 @@ tailwind হল utility base framework আর boostrap হল component base css
 tailwind এ কার্ড আমদের বানাতে হয় utility css দিয়ে
 
 ## handling hover,focus and other states
+
+## dark mood
+
+in tailwind.config.js file
+
+`sh
+  darkMode: 'media',
+  `
+darkMode media মানে system device অনুসারে backgound change হবে
+
+`sh
+  darkMode: 'class',
+  `
+class অনুসারে background change হবে

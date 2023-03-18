@@ -3,7 +3,7 @@
 ## tailwind setup
 
 ```sh
-  git clone https://github.com/learnwithsumit/tailwind-playlist.git
+  npm init
 ```
 
 1. `sh npm init` or `sh npm init -y`

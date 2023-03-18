@@ -19,7 +19,7 @@ for initiallize a node project .package.json file create হবে
 2.
 
 ```sh
-npm i -D tailwindcss
+    npm i -D tailwindcss
 ```
 
 npm i mean initialize -D mean developer . install a tailwindcss dependency in developer mode। node_modules file create হবে

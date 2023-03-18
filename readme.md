@@ -32,7 +32,10 @@ npm i mean initialize -D mean developer . install a tailwindcss dependency in de
 
 this pluging
 
-4. `npx tailwindcss init`
+4. ```sh
+        npx tailwindcss init
+   ```
+
    এর মদ্যমে tailwind.config.js নামে file create হবে
 
 5. src এবং output নামে file create করব
@@ -51,14 +54,20 @@ this pluging
 
 7. root folder এর মদ্যে .vscode ফোল্ডার নিব । তার মদ্যে setting.json ফাইল create করব .এটা হল vscode এর custome code লেখার ফাইল । যেহেত tailwind এর কোড গলো vscode চিনতে পারবে না তাই যাতে warning না দেখায় তাই
 
-`{"css.validate" : flase;"tailwindCSS.emmetCompletaions" : true;}`
+```sh
+    {"css.validate" : flase;"tailwindCSS.emmetCompletaions" :true;}
+```
 
 এই কোড লিকতে হবে
 
 8. package.json ফাইল এ
-   `"scripts": {
-"build":"tailwindcss -i ./src/tailwind.css -o ./output/tailwind.css -w"
-},`
+
+   ```sh
+   "scripts": {
+   "build":"tailwindcss -i ./src/tailwind.css -o ./output/tailwind.css -w"
+   },
+   ```
+
    এখানে -i হল input -o output ফাইল -w হল watch
 
 index.html এ ./output/tailwind.css ফাইল টা html ইনক্লুড করে দিব

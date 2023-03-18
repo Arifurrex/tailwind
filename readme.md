@@ -15,10 +15,11 @@ output folder এ compailer এর মদ্যমে vanilla css compile কর
 in src file i will create tailwind.css file . src/tailwind.css . any name হতে পারে
 
 tailwind.css file এর মদ্যে
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-লিখব
+
+- @tailwind base;
+- @tailwind components;
+- @tailwind utilities;
+  লিখব
 
 @tailwind css er কোন property না । এখানে @ কে বলা হয় directive । যখন আমরা tailwind.css file টা tailwind এর compailer দিয়ে compile করব তখন এই derective গলো দেখে tailwind বুজতে পারবে এখানে tailwind এর base style ইনপুট করা আছে । এখানে tailwind এর components style ইনপুট আছে । এখানে tailwind এর utilities ফাইল ইনপুট করা আছে
 

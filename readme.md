@@ -144,6 +144,8 @@ index.html file e
 
 ### যদি আর একটা green button create করা লাগে তবে
 
+src/tailwind.css file e
+
 ```sh
 
 @tailwind base;
@@ -159,5 +161,15 @@ index.html file e
   @apply px-4 py-1 border border-green-200 rounded-full text-sm text-green-600 font-semibold hover:text-white hover:bg-green-600 hover:border-transparent focus:outline-none focus:ring-2 dark:text-green-600 dark:focus:ring-offset-gray-800 dark:focus:border-transparent;
 }
 
+
+```
+
+index.html file e
+
+```sh
+
+<button class="btn-purple">click here<button>
+
+<button class="btn-green">submit</button>
 
 ```

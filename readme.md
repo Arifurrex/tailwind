@@ -141,3 +141,23 @@ index.html file e
  <button class="btn-purple">click here</button>
 
 ```
+
+### যদি আর একটা green button create করা লাগে তবে
+
+```sh
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* group utility */
+
+.btn-purple {
+  @apply px-4 py-1 border border-purple-200 rounded-full text-sm text-purple-600 font-semibold hover:text-white hover:bg-purple-600 hover:border-transparent focus:outline-none focus:ring-2 dark:text-purple-600 dark:focus:ring-offset-gray-800 dark:focus:border-transparent;
+}
+.btn-green {
+  @apply px-4 py-1 border border-green-200 rounded-full text-sm text-green-600 font-semibold hover:text-white hover:bg-green-600 hover:border-transparent focus:outline-none focus:ring-2 dark:text-green-600 dark:focus:ring-offset-gray-800 dark:focus:border-transparent;
+}
+
+
+```

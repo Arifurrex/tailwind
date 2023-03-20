@@ -8,47 +8,113 @@
     <link rel="stylesheet" href="./output/tailwind.css" />
   </head>
   <body>
-    <div class="space-y-4 bg-slate-700 p-8">
-      <div
-        class="w-96 bg-sky-600 shadow rounded text-white text-center text-xm"
-      >
-        w-96
+    <figure class="w-4/5 mx-auto bg-slate-700">
+      <div class="font-sans flex bg-slate-50">
+        <div class="flex-none w-48 relative">
+          <img
+            class="absolute inset-0 w-full h-full object-cover"
+            loading="lazy"
+            src="https://source.unsplash.com/random/100x100"
+            alt=""
+          />
+        </div>
+        <form action="" class="flex-auto p-6">
+          <div class="flex flex-wrap">
+            <h1>classic Utility jacket</h1>
+            <div>$110.00</div>
+            <div>in stock</div>
+          </div>
+          <div
+            class="flex items-baseline mt-4 mb-6 pb-6 border-b border-slate-200"
+          >
+            <div class="space-x-2 flex text-sm">
+              <label for="">
+                <input
+                  type="radio"
+                  class="sr-only peer"
+                  name="size"
+                  value="xs"
+                  checked
+                />
+                <div
+                  class="w-9 h-9 rounded-lg flex items-center justify-center text-slate-700 peer-checked:font-semibold peer-checked:bg-slate-900 peer-checked:text-white"
+                >
+                  xs
+                </div>
+              </label>
+              <label for="">
+                <input type="radio" class="sr-only peer" />
+                <div
+                  class="w-9 h-9 rounded-lg flex items-center justify-center text-slate-700 peer-checked:font-semibold peer-checked:bg-slate-900 peer-checked:text-white"
+                >
+                  s
+                </div>
+              </label>
+              <label for="">
+                <input type="radio" class="sr-only peer" />
+                <div
+                  class="w-9 h-9 rounded-lg flex items-center justify-center text-slate-700 peer-checked:font-semibold peer-checked:bg-slate-900 peer-checked:text-white"
+                >
+                  m
+                </div>
+              </label>
+              <label for="">
+                <input type="radio" class="sr-only peer" />
+                <div
+                  class="w-9 h-9 rounded-lg flex items-center justify-center text-slate-700 peer-checked:font-semibold peer-checked:bg-slate-900 peer-checked:text-white"
+                >
+                  l
+                </div>
+              </label>
+              <label for="">
+                <input type="radio" class="sr-only peer" />
+                <div
+                  class="w-9 h-9 rounded-lg flex items-center justify-center text-slate-700 peer-checked:font-semibold peer-checked:bg-slate-900 peer-checked:text-white"
+                >
+                  xl
+                </div>
+              </label>
+            </div>
+          </div>
+          <div class="flex space-x-2 mb-6 text-sm font-medium">
+            <div class="flex-auto flex space-x-4">
+              <button
+                class="h-10 px-6 font-semibold rounded-md bg-black text-white"
+                type="button"
+              >
+                buy now
+              </button>
+              <button
+                class="h-10 px-6 border border-slate-300 rounded-md text-slate-900 font-semibold"
+                type="button"
+              >
+                add to bag
+              </button>
+            </div>
+            <button
+              class="flex-none flex items-center justify-center w-9 h-9 rounded-md text-slate-300 border border-slate-200"
+              type="button"
+              aria-label="like"
+            >
+              <svg
+                width="20"
+                height="20"
+                fill="currentColor"
+                aria-hidden="true"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
+                />
+              </svg>
+            </button>
+          </div>
+          <p class="text-sm text-slate-700">
+            free shipping on all continental bd order
+          </p>
+        </form>
       </div>
-      <div
-        class="w-80 bg-sky-600 shadow rounded text-white text-center text-xm"
-      >
-        w-80
-      </div>
-      <div
-        class="w-72 bg-sky-600 shadow rounded text-white text-center text-xm"
-      >
-        w-72
-      </div>
-      <div
-        class="w-64 bg-sky-600 shadow rounded text-white text-center text-xm"
-      >
-        w-64
-      </div>
-      <div
-        class="w-60 bg-sky-600 shadow rounded text-white text-center text-xm"
-      >
-        w-60
-      </div>
-      <div
-        class="w-56 bg-sky-600 shadow rounded text-white text-center text-xm"
-      >
-        w-56
-      </div>
-      <div
-        class="w-52 bg-sky-600 shadow rounded text-white text-center text-xm"
-      >
-        w-52
-      </div>
-      <div
-        class="w-48 bg-sky-600 shadow rounded text-white text-center text-xm"
-      >
-        w-48
-      </div>
-    </div>
+    </figure>
   </body>
 </html>

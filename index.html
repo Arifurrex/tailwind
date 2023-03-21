@@ -7,29 +7,47 @@
     <title>Document</title>
     <link rel="stylesheet" href="./output/tailwind.css" />
   </head>
-  <body class="bg-gray-100">
-    <div
-      class="px-8 py-2 max-w-md mx-auto sm:bg-yellow-300 md:bg-pink-200 lg:bg-green-200 xl:bg-indigo-200 2xl:bg-purple-200"
-    >
-      <img src="img/logo.svg" alt="" class="h-10" />
-      <img src="img/beach-work.jpg" alt="" class="mt-6 rounded-lg shadow-xl" />
-      <h1 class="text-gray-500 font-bold capitalize mt-6 text-2xl">
-        you can work from anywhere .
-        <span class="text-indigo-500 inline">take advantage of it </span>
-      </h1>
-      <p class="mt-2 text-gray-600">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime suscipit
-        iste perspiciatis explicabo eligendi enim porro beatae. Similique magni
-        culpa atque aspernatur perferendis sed assumenda labore molestias
-        impedit voluptas perspiciatis ipsum, quibusdam adipisci numquam dolor
-        quis saepe, nostrum ex eum.
-      </p>
-      <div class="mt-4">
-        <button
-          class="bg-indigo-500 py-4 px-8 text-white font-semibold rounded-md shadow-2xl shadow-indigo-900 hover:bg-indigo-400"
-        >
-          Book your hotel
-        </button>
+  <body class="bg-gray-300">
+    <div class="bg-gray-100 grid lg:grid-cols-2 2xl:grid-cols-5">
+      <div
+        class="px-8 py-2 max-w-md lg:max-w-full mx-auto sm:max-w-xl lg:px-12 lg:py-24 xl:mr-0 2xl:col-span-2"
+      >
+        <div class="xl:max-w-xl">
+          <img src="img/logo.svg" alt="" class="h-10" />
+          <img
+            src="img/beach-work.jpg"
+            alt=""
+            class="lg:hidden mt-6 rounded-lg shadow-xl sm:mt-8 sm:h-64 sm:w-full object-cover object-center"
+          />
+          <h1
+            class="text-gray-900 font-bold capitalize mt-6 text-2xl sm:text-4xl lg:text-3xl xl:text-4xl"
+          >
+            you can work from anywhere .
+            <br class="hidden lg:inline" />
+            <span class="text-indigo-500">take advantage of it </span>
+          </h1>
+          <p class="mt-2 text-gray-600 sm:mt-4 sm:text-xl lg:text-2xl">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+            suscipit iste perspiciatis explicabo eligendi enim porro beatae.
+            Similique magni culpa atque aspernatur perferendis sed assumenda
+            labore molestias impedit voluptas perspiciatis ipsum, quibusdam
+            adipisci numquam dolor quis saepe, nostrum ex eum.
+          </p>
+          <div class="mt-4 sm:mt-8">
+            <button
+              class="bg-indigo-500 py-4 px-8 text-white font-semibold rounded-md shadow-2xl shadow-indigo-900 hover:bg-indigo-400 inline-block sm:text-base"
+            >
+              Book your hotel
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="hidden lg:block relative 2xl:col-span-3">
+        <img
+          src="img/beach-work.jpg"
+          alt=""
+          class="absolute inset-0 w-full h-full object-cover object-center"
+        />
       </div>
     </div>
   </body>

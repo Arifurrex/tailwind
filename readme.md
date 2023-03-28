@@ -50,7 +50,7 @@ this pluging
 - @tailwind utilities;
   লিখব
 
-@tailwind css er কোন property না । এখানে @ কে বলা হয় directive । At-rules[https://developer.mozilla.org/en-US/docs/Web/CSS/At-rule] । যখন আমরা tailwind.css file টা tailwind এর compailer দিয়ে compile করব তখন এই derective গলো দেখে tailwind বুজতে পারবে এখানে tailwind এর base style ইনপুট করা আছে । এখানে tailwind এর components style ইনপুট আছে । এখানে tailwind এর utilities ফাইল ইনপুট করা আছে
+@tailwind css er কোন property না । এখানে @ কে বলা হয় directive । [At-rules](https://developer.mozilla.org/en-US/docs/Web/CSS/At-rule) । যখন আমরা tailwind.css file টা tailwind এর compailer দিয়ে compile করব তখন এই derective গলো দেখে tailwind বুজতে পারবে এখানে tailwind এর base style ইনপুট করা আছে । এখানে tailwind এর components style ইনপুট আছে । এখানে tailwind এর utilities ফাইল ইনপুট করা আছে
 
 7. root folder এর মদ্যে .vscode ফোল্ডার নিব । তার মদ্যে setting.json ফাইল create করব .এটা হল vscode এর custome code লেখার ফাইল । যেহেত tailwind এর কোড গলো vscode চিনতে পারবে না তাই যাতে warning না দেখায় তাই
 
